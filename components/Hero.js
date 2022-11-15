@@ -8,11 +8,9 @@ export default function Hero() {
 
     return(
         <div className="mx-auto max-w-6xl">
-            <div className="flex md:flex-row flex-col-reverse gap-4 md:gap-18 md:mt-20 text-[#f8f8ff] items-center">
-                <div className="md:w-1/2 w-full items-center pb-10 md:pb-0">
-                    <h3 className="text-3xl md:pl-10 md:text-4xl mb-8 md:w-[100%] font-bold md:text-left text-center">
-                        Preencha os campos abaixo para obter a informação desejada gratuitamente.
-                    </h3>
+            <div className="flex md:flex-row flex-col-reverse gap-4 md:gap-18 text-[#f8f8ff] items-center">
+                <div className="md:w-1/2 w-full self-center items-center pb-10 md:pb-0">
+                    
                 <ContactForm />
                 </div>
                 <div className="md:w-1/2 w-full self-center">
@@ -31,7 +29,7 @@ export default function Hero() {
                             económicas e ricas em conversões da atualidade.
                         </p>
                 </div>*/}
-                <Image src={heroImage} width={30} height={30} alt="Black Friday" layout="responsive"/>
+                    <Image src={heroImage} alt="Black Friday" className="object-contain" layout="responsive"/>
                 </div>
             </div>
         </div>

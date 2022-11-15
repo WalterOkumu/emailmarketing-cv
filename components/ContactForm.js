@@ -1,9 +1,14 @@
+import { Fragment } from "react";
 
 
 const ContactForm = () => {
 
   return (
-      <div id="mlb2-5795093" className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-5795093">
+     <Fragment>
+        <h3 className="text-3xl md:text-4xl mb-8 md:w-[100%] font-bold md:text-left text-center">
+            Preencha os campos abaixo para obter a informação desejada gratuitamente
+        </h3>
+        <div id="mlb2-5795093" className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-5795093">
                     <div className="ml-form-align-center">
                         <div className="ml-form-embedWrapper embedForm">
                         <div className="ml-form-embedBody ml-form-embedBodyDefault row-form">
@@ -43,6 +48,7 @@ const ContactForm = () => {
                         </div>
                     </div>
             </div>
+        </Fragment>
   );
 };
 
