@@ -9,14 +9,7 @@ import Info from '../components/Info'
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Email Marketing</title>
-        <meta name="description" content="Email Marketing Landing Page" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className='pb-10'>
+    <div className='pb-10'>
         <div className='pt-8 md:h-screen px-10 bg-[#181818]'>
           <Header />
           <Hero />
@@ -25,8 +18,6 @@ export default function Home() {
         <Info />
         {/*<Lead />*/}
         {/*<Testimonials />*/}
-      </main>
-
     </div>
   )
 }

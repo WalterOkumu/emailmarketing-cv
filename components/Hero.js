@@ -8,7 +8,7 @@ export default function Hero() {
 
     return(
         <div className="mx-auto max-w-6xl">
-            <div className="flex md:flex-row flex-col-reverse gap-4 md:gap-18 text-[#f8f8ff] items-center">
+            <div className="flex md:flex-row flex-col-reverse mt-16 gap-4 md:gap-18 text-[#f8f8ff] items-center">
                 <div className="md:w-1/2 w-full self-center items-center pb-10 md:pb-0">
                     
                 <ContactForm />
@@ -29,7 +29,7 @@ export default function Hero() {
                             económicas e ricas em conversões da atualidade.
                         </p>
                 </div>*/}
-                    <Image src={heroImage} alt="Black Friday" className="object-contain" layout="responsive"/>
+                    <Image src={heroImage} alt="Black Friday" className="object-contain" layout="responsive" priority="true" as="image"/>
                 </div>
             </div>
         </div>
