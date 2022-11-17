@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta name="description" content="Email Marketing Landing Page" />
+        <meta name="description" content="Email Marketing Landing Page Cabo Verde" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
