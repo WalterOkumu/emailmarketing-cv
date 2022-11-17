@@ -8,6 +8,20 @@ function MyApp({ Component, pageProps }) {
               <title>Email Marketing - Cabo Verde</title>
             </Head>
             <Component {...pageProps} />
+
+            <Script
+              async="true"
+              strategy='beforeInteractive'
+              id='elm'
+            >
+              {
+                function ml_webform_success_5795093(){
+                  var r = ml_jQuery||jQuery;
+                  r(".ml-subscribe-form-5795093 .row-success").show();
+                  r(".ml-subscribe-form-5795093 .row-form").hide();
+                }
+              }
+            </Script>
           </>
         )
 }
