@@ -604,8 +604,8 @@
   .ml-form-interestGroupsRowCheckbox
   input[type="checkbox"]:checked
   ~ .label-description::before {
-  border-color: #fbed04 !important;
-  background-color: #fbed04 !important;
+  border-color: #fff200 !important;
+  background-color: #fff200 !important;
   color: #1b1b1b !important;
 }
 #mlb2-5795093.ml-form-embedContainer
@@ -1005,8 +1005,8 @@
   .ml-form-embedBody
   .ml-form-horizontalRow
   button {
-  background-color: #fbed04 !important;
-  border-color: #fbed04;
+  background-color: #fff200 !important;
+  border-color: #fff200;
   border-style: solid;
   border-width: 1px;
   border-radius: 6px;
@@ -1115,7 +1115,7 @@
   .ml-form-embedBody
   .ml-form-embedSubmit
   button {
-  background-color: #fbed04 !important;
+  background-color: #fff200 !important;
   border: none !important;
   border-radius: 6px !important;
   box-shadow: none !important;
